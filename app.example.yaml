@@ -22,6 +22,7 @@ env_variables:
   DEKART_MAPBOX_TOKEN: "$MAPBOX_TOKEN"
   DEKART_IAP_JWT_AUD: "$DEKART_IAP_JWT_AUD"
   DEKART_REQUIRE_IAP: "1"
+  DEKART_UX_DATA_DOCUMENTATION: "https://dekart.xyz/docs/about/playground/"
 
 
 beta_settings:
