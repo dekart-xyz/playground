@@ -23,6 +23,7 @@ env_variables:
   DEKART_IAP_JWT_AUD: "$DEKART_IAP_JWT_AUD"
   DEKART_REQUIRE_IAP: "1"
   DEKART_UX_DATA_DOCUMENTATION: "https://dekart.xyz/docs/about/playground/"
+  DEKART_HTML_CUSTOM_CODE: '<script async defer data-domain="play.dekart.xyz" src="https://plausible.io/js/plausible.js"></script>'
 
 
 beta_settings:
