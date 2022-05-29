@@ -17,7 +17,7 @@ storage:
 app-create:
 	gcloud app create --region=europe-west
 
-app-deploy:
+app-deploy:	
 	BUCKET=${BUCKET} \
 	PROJECT_ID=${PROJECT_ID} \
 	MAPBOX_TOKEN=${MAPBOX_TOKEN} \
