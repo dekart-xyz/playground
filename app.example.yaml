@@ -24,6 +24,7 @@ env_variables:
   DEKART_REQUIRE_IAP: "1"
   DEKART_UX_DATA_DOCUMENTATION: "https://dekart.xyz/docs/about/playground/"
   DEKART_UX_HOMEPAGE: "https://dekart.xyz/"
+  DEKART_UX_ACCESS_ERROR_INFO_HTML: '<a href="https://cloud.dekart.xyz/" >⚙️ Setup access to private dataset</a>'
   DEKART_HTML_CUSTOM_CODE: '<script async defer data-domain="play.dekart.xyz" src="https://plausible.io/js/plausible.js"></script>'
   DEKART_BIGQUERY_MAX_BYTES_BILLED: "53687091200"
 

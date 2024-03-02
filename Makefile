@@ -25,7 +25,7 @@ app-create:
 	gcloud app create --region=europe-west
 
 .PHONY: app.yaml
-app.yaml:	
+app.yaml:
 	BUCKET=${BUCKET} \
 	PROJECT_ID=${PROJECT_ID} \
 	MAPBOX_TOKEN=${MAPBOX_TOKEN} \
@@ -33,6 +33,6 @@ app.yaml:
 	envsubst < app.example.yaml > app.yaml
 
 app-deploy:	app.yaml
-	gcloud app deploy app.yaml
+	gcloud app deploy app.yaml --project=${PROJECT_ID}
 
 all: db-instance db-database db-password storage app-create app-deploy
